@@ -1,12 +1,23 @@
 h2 {
-	color: #000080;
+	color: blue;
   	font-family: Arial, Verdana, sans-serif;
   	text-align: center;
-}
+  }
 h3 {
 	font-style: italic;
 }
 p {
   	padding-left: 20px;
   	color: green;
+}
+.one {
+	color: blue;
+}
+.two {
+	color: black;
+	font-size: 130%;
+}
+#id1 {
+	text-align: center;
+	color: black;
 }
