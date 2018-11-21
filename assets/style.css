@@ -1,3 +1,31 @@
-body {
-	background: red;
+
+/*.list li + li {
+    color: white ;
+}*/
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+    .list {
+        color: blue;
+    }
+}
+.products {
+    background: green;
+    width: 100%;
+    
+}
+.products div {
+    border: 2px solid red;
+}
+.product-item {
+    width: 49%;
+    float: left !important;
+    
+}
+.product-item1 {
+    background: blue;
+    width: 49%;
+    float: right;
+}
+.product-item:last-child {
+    clear: both;
+    float: none !important;
 }
