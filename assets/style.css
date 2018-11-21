@@ -29,3 +29,47 @@
     clear: both;
     float: none !important;
 }
+.product-item .product-item8 {
+}
+/* СТИЛИ Блога */
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.content-articles {
+    width: 100%;
+    height: 2500px;
+    background-color: skyblue;
+}
+.block-articles {
+    width: 45%;
+    float: left;
+    margin: 1%;
+    border: 2px solid black;
+}
+.block-articles h2 {
+    font-size: 20px;
+    word-spacing: 5px;
+    color: red;
+    margin-left: 5%;
+}
+.material {
+    width: 100%;
+}
+.image-blog {
+    width: 40%;
+    margin: 2%;
+}
+.material p {
+    line-height: 200%;
+    margin: 2%;
+}
+.block-articles a {
+    color: green;
+    text-align: center;
+    margin: 3%;
+    font-size: 25px;
+    text-decoration: none;
+}
