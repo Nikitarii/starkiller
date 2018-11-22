@@ -37,6 +37,7 @@ h1 {
     letter-spacing: 5px;
     font-family: sans-serif;
     font-style: italic;
+    font-size: 250%;
 }
 .content-articles {
     width: 100%;
@@ -50,7 +51,7 @@ h1 {
     border: 2px solid black;
 }
 .block-articles h2 {
-    font-size: 20px;
+    font-size: 1.5em;
     word-spacing: 5px;
     color: red;
     margin-left: 5%;
@@ -65,11 +66,12 @@ h1 {
 .material p {
     line-height: 200%;
     margin: 2%;
+    font-size: 15px;
 }
 .block-articles a {
     color: green;
     text-align: center;
     margin: 3%;
-    font-size: 25px;
+    font-size: 22pt;
     text-decoration: none;
 }
