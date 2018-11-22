@@ -40,18 +40,20 @@ h1 {
     font-size: 250%;
     font-weight: lighter;
     font-variant: small-caps;
+    color: white;
     /*position: fixed;*/
 }
 .content-articles {
     width: 100%;
     height: 2500px;
-    background-color: skyblue;
+    background-color: darkred;
 }
 .block-articles {
     width: 45%;
     float: left;
     margin: 1%;
     border: 2px solid black;
+    background-color: skyblue;
 
 }
 .block-articles h2 {
