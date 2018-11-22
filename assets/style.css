@@ -38,6 +38,8 @@ h1 {
     font-family: sans-serif;
     font-style: italic;
     font-size: 250%;
+    font-weight: lighter;
+    font-variant: small-caps;
     /*position: fixed;*/
 }
 .content-articles {
@@ -57,6 +59,8 @@ h1 {
     word-spacing: 5px;
     color: red;
     margin-left: 5%;
+    font-family: cursive;
+    font-style: oblique;
     /*position: absolute;*/
 
 }
@@ -73,6 +77,7 @@ h1 {
     line-height: 200%;
     margin: 2%;
     font-size: 15px;
+    font-style: italic;
 }
 .block-articles a {
     color: green;
@@ -80,4 +85,5 @@ h1 {
     margin: 3%;
     font-size: 22pt;
     text-decoration: none;
+    font-family: monospace;
 }
