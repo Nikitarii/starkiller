@@ -50,10 +50,11 @@ h1 {
 }
 .block-articles {
     width: 45%;
-    float: left;
+    /*float: left;*/
     margin: 1%;
     border: 2px solid black;
     background-color: skyblue;
+    display: inline-flex;
 
 }
 .block-articles h2 {
@@ -88,4 +89,8 @@ h1 {
     font-size: 22pt;
     text-decoration: none;
     font-family: monospace;
+}
+.block-articles:last-child {
+    clear: both;
+    display: inline;
 }
