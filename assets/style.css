@@ -38,7 +38,7 @@ h1 {
     font-family: sans-serif;
     font-style: italic;
     font-size: 250%;
-    position: fixed;
+    /*position: fixed;*/
 }
 .content-articles {
     width: 100%;
@@ -47,7 +47,7 @@ h1 {
 }
 .block-articles {
     width: 45%;
-    /*float: left;*/
+    float: left;
     margin: 1%;
     border: 2px solid black;
 
@@ -57,7 +57,7 @@ h1 {
     word-spacing: 5px;
     color: red;
     margin-left: 5%;
-    position: absolute;
+    /*position: absolute;*/
 
 }
 .material {
@@ -66,7 +66,8 @@ h1 {
 .image-blog {
     width: 40%;
     margin: 2%;
-    position: relative;
+    /*position: relative;*/
+    float: right;
 }
 .material p {
     line-height: 200%;
