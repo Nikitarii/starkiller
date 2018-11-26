@@ -48,7 +48,8 @@ h1 {
     height: 2500px;
     background-color: darkred;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .block-articles {
     width: 30%;
