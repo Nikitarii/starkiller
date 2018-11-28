@@ -186,14 +186,13 @@ animation: shadow  2s infinite ease-in-out;
     border-bottom: 2px solid
 }
 .block-one {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
 }
 .block-one p {
     font-size: 28px;
     font-family: sans-serif;
     font-weight: bold;
-    margin-left: 22%;
+    margin-left: 5%;
 }
 .text {
     font-family: sans-serif;
@@ -202,11 +201,25 @@ animation: shadow  2s infinite ease-in-out;
 .block-one a {
     background-color: white;
     text-decoration: none;
-    width: 13%;
+    width: 7%;
     text-align: center;
     height: 35px;
-    margin-top: 27px;
+    margin: 27px 0 0 23px;
     border-radius: 15px;
     color: blue;
     font-size: 14px;
+}
+.block-two {
+    display: flex;
+    justify-content: space-around
+}
+.box {
+    background-color: white;
+    width: 25%;
+    border-radius: 25px;
+    height: 350px;
+    margin-bottom: 90px;
+}
+.block-content {
+    /*background: url("https://demo.qestate.co/app/uploads/sites/2/2018/04/StockSnap_L9VZ6SOGBB-700x400.jpg") no-repeat;*/
 }
