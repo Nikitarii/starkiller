@@ -220,23 +220,27 @@ animation: shadow  2s infinite ease-in-out;
     height: 350px;
     margin-bottom: 90px;
 }
-.box div {
+.block-content1, .block-content2, .block-content3 {
     width: 350px;
-    height: 200px;
+    height: 197px;
     margin: 3% 0 0 3%;
+    border-radius: 15px;
+}
+.background {
+    background-color: hsla(90,2%,44%,0.4);
+    display: flex;
+    width: 311px;
+    height: 197px;
     border-radius: 15px;
 }
 .block-content1 {
     background: url("http://z500proekty.ru/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Zx113-Zx113_view1_jpg.jpg") no-repeat;
-    display: flex;
 }
 .block-content2 {
     background: url("http://z500.com.ua/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Zb1-Zb1_view1_jpg.jpg") no-repeat;
-    display: flex;
 }
 .block-content3 {
     background: url("http://z500proekty.ru/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Z62-Z62_view1_jpg.jpg") no-repeat;
-    display: flex;
 }
 .box p {
     color: white;
@@ -246,4 +250,8 @@ animation: shadow  2s infinite ease-in-out;
 }
 .rent {
     background: black;
+    width: 18%;
+    height: 10%;
+    text-align: center;
+    border-radius: 8px;
 }
