@@ -215,11 +215,35 @@ animation: shadow  2s infinite ease-in-out;
 }
 .box {
     background-color: white;
-    width: 25%;
+    width: 28%;
     border-radius: 25px;
     height: 350px;
     margin-bottom: 90px;
 }
-.block-content {
-    /*background: url("https://demo.qestate.co/app/uploads/sites/2/2018/04/StockSnap_L9VZ6SOGBB-700x400.jpg") no-repeat;*/
+.box div {
+    width: 350px;
+    height: 200px;
+    margin: 3% 0 0 3%;
+    border-radius: 15px;
+}
+.block-content1 {
+    background: url("http://z500proekty.ru/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Zx113-Zx113_view1_jpg.jpg") no-repeat;
+    display: flex;
+}
+.block-content2 {
+    background: url("http://z500.com.ua/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Zb1-Zb1_view1_jpg.jpg") no-repeat;
+    display: flex;
+}
+.block-content3 {
+    background: url("http://z500proekty.ru/thumbs/350x197s20/-FilesZ500-res-wizualizacje-Z62-Z62_view1_jpg.jpg") no-repeat;
+    display: flex;
+}
+.box p {
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.rent {
+    background: black;
 }
