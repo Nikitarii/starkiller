@@ -54,20 +54,45 @@ h1 {
     /*align-items: center;*/
     align-content: flex-start;
 }
+#q2 {
+    background-color: red;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin: 15px 10px;
+    margin: 5px 10px 2px 15px;
+}
+#q7 {
+    background-image: url("http://mywishlist.ru/pic/i/wish/orig/009/019/875.jpeg") repeat: none;
+
+
+}
 .block-articles {
     /*width: 30%;*/
     /*float: left;*/
     margin: 1%;
     border: 2px solid black;
+    border-radius: 2px;
+    border-color: green;
+    border-style: solid;
+    border-width: 4px;
+
     background-color: skyblue;
     /*display: block;*/
     display: grid;
     /*grid-template-columns: 200px 200px 200px;*/
     grid-template-columns: 1fr 2fr 1fr;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-auto-rows: minmax(100px, auto);*/
 
     /*.h1 {
         color: blue;
     }*/
+}
+.content-articles .block-articles:nth-child(2) {
+    background-color: yellow;
 }
 .block-articles h2 {
     font-size: 1.5em;
@@ -153,4 +178,35 @@ h1 {
 font-size: 3.5em;
 color: darkmagenta;
 animation: shadow  2s infinite ease-in-out;
+}
+/* СТИЛИ Блога домашка*/
+.content-qestate {
+    width: 100%;
+    background-color: #f6f7fb;
+    border-bottom: 2px solid
+}
+.block-one {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.block-one p {
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 22%;
+}
+.text {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.block-one a {
+    background-color: white;
+    text-decoration: none;
+    width: 13%;
+    text-align: center;
+    height: 35px;
+    margin-top: 27px;
+    border-radius: 15px;
+    color: blue;
+    font-size: 14px;
 }
