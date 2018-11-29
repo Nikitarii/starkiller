@@ -216,8 +216,8 @@ animation: shadow  2s infinite ease-in-out;
 .box {
     background-color: white;
     width: 28%;
+    height: max-content;
     border-radius: 25px;
-    height: 350px;
     margin-bottom: 90px;
 }
 .block-content1, .block-content2, .block-content3 {
@@ -298,4 +298,41 @@ img {
     border-radius: 16px;
     background-color: white;
     margin-left: 9%
+}
+.infomation p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 5%;
+}
+.infomation p:hover {
+    color: #007bff;
+}
+.person {
+    display: flex;
+    margin-top: -3%;
+}
+.person img {
+    width: 5%;
+}
+.person p {
+    font-family: MONOSPACE, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgba(100, 109, 141, 1);
+    margin: 1% 0 0 3%;
+}
+.description {
+    display: flex;
+}
+.description p {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: rgba(100, 109, 141, 1);
+    margin-left: 5%;
+}
+.sup {
+    margin-top: 12px;
 }
