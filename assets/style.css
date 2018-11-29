@@ -281,11 +281,21 @@ animation: shadow  2s infinite ease-in-out;
     margin-top: 12px;
     display: flex;
 }
+.block-strip p {
+    color: rgba(231, 89, 101, 1);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
 .icons {
     display: flex;
-    margin-left: 15%;
+    /*justify-content: space-between;*/
+    margin: 4% 0 0 5%;
 }
 img {
-    width: 10%;
-    height: 40%;
+    width: 20%;
+    height: 60%;
+    border-radius: 16px;
+    background-color: white;
+    margin-left: 9%
 }
